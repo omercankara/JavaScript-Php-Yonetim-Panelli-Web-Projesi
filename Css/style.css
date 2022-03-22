@@ -1,0 +1,64 @@
+
+ #mobilMenuUL{
+        list-style-type: none;
+       
+ }
+ #mobilMenuUL li {
+        margin: 6vh;
+        
+ }
+ #mobilMenuUL li a {
+        text-decoration: none !important;
+        color: white;
+        
+ }
+ /*******************************************MOBİL MENU SONU********************************************/
+*{
+        transition: 1s ease;
+}
+ #desktopMenuUL{
+       height: 20px;
+ }
+ #desktopMenuUL li{
+        display: inline;
+        list-style-type: disc;
+       
+ }
+ #desktopMenuUL li a {
+        margin: 4vh;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 0.5vh;
+ }
+ #desktopMenuUL li a:hover {
+        color: rgb(162, 165, 209);
+ }
+
+
+ @media only screen and (min-width: 768px) {
+  #mobilMenuCont{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #desktopMenuCont{
+    display: none;
+  }
+}
+
+
+/**************STYLE PROCESS****************/
+
+.mainHeaderText{
+        color: rgba(236, 246, 255, 0.596);
+}
+.designHeader{
+        color:gold !important;
+        line-height: 4vh;
+        letter-spacing: 0.2vh;
+}
+.designContent{
+        color: gainsboro;
+        font-size: 2.3vh;
+}
